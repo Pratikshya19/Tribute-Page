@@ -3,8 +3,7 @@ html, body {
     /* min-width: 100%;
     min-height: 100%; */
     margin: 0px;
-  font-family: 'Nunito',
-   sans-serif;  
+  font-family: sans-serif;
 }
 
 header {
@@ -45,6 +44,7 @@ margin-top: 0px;
 }
 
 h6 {
+   
     text-align: center;
     font-size: 3.4vh;
  margin-top: 0px;
@@ -52,11 +52,6 @@ h6 {
   padding-top: 20px;
 }
 
-/* .paragraph-2 {
-    margin-top: 0px;
-    padding: 4px ; 
-    background-color: #fdcb6e;
-} */
 .container {
   min-width: 100%;
   margin: 0 auto;
@@ -74,45 +69,40 @@ h6 {
     background-attachment: fixed;
     min-height: 90vh;
 }
-
 .paragraph{
     margin-top: 0px;
 padding: 5px 100px 2px 90px;
 }
+
 .quotes {
     display: flex;
-   background-color: #fdcb6e;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color:#fdcb6e ;
   }
 
-.box1 {
-    justify-content: center;
-    flex-flow: column;
-   margin-top: 10px;
-   margin-right: 100px;
-        background: white;
-        height: 10vh;
-        /* width: 50vw; */
-        padding: 20px;
-      }
-      
-
-
-
-
-/* .parallax {
-    min-height: 500px;
-    min-width: 100%;
-    background: transparent;
+  .box1 {
+    width: auto;
+    max-width: 500px;
+    background: white;
+    border: 3px solid #00b894;;
+    padding: 2rem;
+    margin: 1rem; 
+    /* font-size: 1rem; */
+  }
+a:hover {
+    color: red;
 }
-.border {
-    max-width: 80%;
-    max-height: auto;
-} */
+a{
+    color: white;
+    
+}
+
 footer {
   background-color:  #013d1e;
   text-align: center;
   color: #fff;
   max-width:100%;
-  margin-bottom: 0;
-  padding: 5px;
+  padding: 25px;
+  font-size: 1.1rem;
 }
