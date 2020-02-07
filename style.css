@@ -1,16 +1,12 @@
 html, body { 
-  overflow-x: hidden;
-    /* min-width: 100%;
-    min-height: 100%; */
+    overflow-x: hidden;
     margin: 0px;
-  font-family: sans-serif;
-}
+    font-family: sans-serif;
+    }
 
 header {
 background-color: #013d1e;
-text-align: center;
-    /* margin: 0px; */
-padding: 27px; 
+padding: 27px;
 }
 
 .title {
@@ -18,9 +14,9 @@ text-align: center;
 color: #d8e0db;
 font-size: 3.5vh;
 }
+
 .section-1 {
-margin-top: 0px;
-padding:0px 0px 1px 0px ; 
+padding: 0px 0px 1px 0px ; 
 background-color: #fdcb6e;
 }
 
@@ -30,79 +26,59 @@ max-height: 780px;
 }
 
 .paragraph-1 {
-padding: 0px 100px 0px 90px;
+padding: 10px 100px 10px 90px;
 text-align: justify;
-font-size:  2.6vh;
-
-}
-.paragraph-2 {
-padding: 0px 100px 0px 90px;
-text-align: justify;
-font-size:  2.6vh;
-margin-top: 0px;
-
+font-size: 2.4vh;
 }
 
-h6 {
-   
-    text-align: center;
-    font-size: 3.4vh;
- margin-top: 0px;
- margin-bottom: 20px;
-  padding-top: 20px;
-}
-
-.container {
-  min-width: 100%;
-  margin: 0 auto;
-  padding: 0px;
- }
- h1 {
-     margin: 0px;
- }
- 
-
+.parallax-container {
+    min-width: 100%;
+    margin: 0 auto;
+   }
 .parallax {
-    background: url("play.jpeg") no-repeat center;
+    background: url("kobe.jpeg") no-repeat center;
     min-width: 100%;
     background-size: cover;
     background-attachment: fixed;
     min-height: 90vh;
 }
-.paragraph{
-    margin-top: 0px;
-padding: 5px 100px 2px 90px;
+h6 {
+    text-align: center;
+    font-size: 3.4vh;
+     margin-top: 0px;
+     margin-bottom: 20px;
+      padding-top: 20px;
+    }
+.paragraph-2 {
+padding: 0px 100px 0px 90px;
+text-align: justify;
+font-size:  2.4vh;
+margin-top: 0px;
 }
-
 .quotes {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     background-color:#fdcb6e ;
   }
-
-  .box1 {
+  .box {
     width: auto;
     max-width: 500px;
     background: white;
     border: 3px solid #00b894;;
     padding: 2rem;
     margin: 1rem; 
-    /* font-size: 1rem; */
   }
 a:hover {
     color: red;
 }
 a{
     color: white;
-    
 }
-
 footer {
-  background-color:  #013d1e;
-  text-align: center;
-  color: #fff;
-  max-width:100%;
-  padding: 25px;
-  font-size: 1.1rem;
-}
+    background-color:  #013d1e;
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    font-size: 1.1rem;
+  }
